@@ -1,0 +1,8 @@
+# Android package archives (installers are linked via official GitHub releases)
+*.apk
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
