@@ -8,48 +8,6 @@
 
 A beginner-friendly, step-by-step installation and setup guide for running **Google Antigravity CLI (`agy`)** natively inside **Termux** on Android devices.
 
----
-
-## Table of Contents
-
-- [1. Project Introduction](#1-project-introduction)
-  - [What is AGY?](#what-is-agy)
-  - [Who Should Use It?](#who-should-use-it)
-  - [Key Features](#key-features)
-  - [Visual Preview](#visual-preview)
-- [2. System Requirements](#2-system-requirements)
-- [3. Download & Install Termux](#3-download--install-termux)
-  - [Why You Must Avoid the Google Play Store](#why-you-must-avoid-the-google-play-store)
-  - [Official Download Links](#official-download-links)
-  - [Installing and Opening Termux](#installing-and-opening-termux)
-- [4. Step-by-Step AGY Installation](#4-step-by-step-agy-installation)
-  - [Step 1: Check Your Device Architecture](#step-1-check-your-device-architecture)
-  - [Step 2: Grant Storage Access (Recommended)](#step-2-grant-storage-access-recommended)
-  - [Step 3: Update Termux Packages](#step-3-update-termux-packages)
-  - [Step 4: Install Required Base Packages](#step-4-install-required-base-packages)
-  - [Step 5: Enable the GLIBC Repository](#step-5-enable-the-glibc-repository)
-  - [Step 6: Refresh Package Index](#step-6-refresh-package-index)
-  - [Step 7: Install GLIBC Runtime](#step-7-install-glibc-runtime)
-  - [Step 8: Run the AGY Installer](#step-8-run-the-agy-installer)
-  - [Step 9: Verify the Installation](#step-9-verify-the-installation)
-  - [Step 10: Start Antigravity CLI](#step-10-start-antigravity-cli)
-- [5. First-Time Setup & Everyday Usage](#5-first-time-setup--everyday-usage)
-  - [Google Account Authentication](#google-account-authentication)
-  - [Starting a Project Session](#starting-a-project-session)
-  - [Useful Commands and Shortcuts](#useful-commands-and-shortcuts)
-- [6. Screenshots and Visual Guide](#6-screenshots-and-visual-guide)
-- [7. Troubleshooting](#7-troubleshooting)
-  - [Error 1: Unable to locate package glibc-repo](#error-1-unable-to-locate-package-glibc-repo)
-  - [Error 2: Missing Termux GLIBC loader](#error-2-missing-termux-glibc-loader)
-  - [Error 3: Missing CA bundle or resolver configuration](#error-3-missing-ca-bundle-or-resolver-configuration)
-  - [Error 4: CPU does not support LSE atomics](#error-4-cpu-does-not-support-lse-atomics)
-  - [Error 5: agy: command not found](#error-5-agy-command-not-found)
-  - [Error 6: Browser authentication page fails to open](#error-6-browser-authentication-page-fails-to-open)
-  - [Error 7: Package repository network failures](#error-7-package-repository-network-failures)
-- [8. Frequently Asked Questions (FAQ)](#8-frequently-asked-questions-faq)
-- [9. Support, Links & Credits](#9-support-links--credits)
-
----
 
 ## 1. Project Introduction
 
